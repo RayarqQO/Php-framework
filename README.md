@@ -1,4 +1,4 @@
-# php-framework.loc
+# php-framework
  Simple MVC framework on PHP
 
 ----------------------------
