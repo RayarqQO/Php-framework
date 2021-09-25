@@ -47,3 +47,9 @@
             }
             return false;
         }
+
+        public function isAcl($key)
+        {
+            return in_array($this->route['action'], $this->acl[$key]);
+        }
+    }
